@@ -1,0 +1,8 @@
+package: terraform/terraform-provider-dummy
+import:
+- package: github.com/hashicorp/terraform
+  version: 0.7.13
+  subpackages:
+  - helper/schema
+  - plugin
+  - terraform
